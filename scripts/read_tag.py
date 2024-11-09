@@ -4,8 +4,8 @@ This script uses pylogix module running inside a virtual enviroment to communica
 from pylogix import PLC
 
 comm = PLC()
-comm.IPAddress = '192.168.1.9'
-ret = comm.Read('CurrentScreen')
+comm.IPAddress = '10.5.10.120'
+ret = comm.Read('ie_i_150_TestRunning')
 print(ret.Value)
 comm.Close()
 
