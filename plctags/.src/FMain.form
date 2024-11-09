@@ -1,21 +1,30 @@
 # Gambas Form File 3.0
 
 { Form Form
-  MoveScaled(0,0,64,41)
+  MoveScaled(0,0,71,27)
   Text = ("plctags - by langostino")
   { Label1 Label
     MoveScaled(7,3,19,3)
     Font = Font["Bold"]
     Text = ("ie_i_150_TestRunning")
   }
-  { Button1 Button
-    MoveScaled(28,2,12,4)
+  { btnRead Button
+    MoveScaled(28,2,10,4)
+    Text = ("read")
   }
-  { Button2 Button
-    MoveScaled(41,2,12,4)
+  { btnWrite Button
+    MoveScaled(39,2,10,4)
+    Text = ("write")
   }
   { Label2 Label
     MoveScaled(2,3,8,3)
     Text = ("TAG:")
+  }
+  { btnToggle Button
+    MoveScaled(50,2,9,4)
+    Text = ("toggle")
+  }
+  { lblTag Label
+    MoveScaled(30,7,8,3)
   }
 }
