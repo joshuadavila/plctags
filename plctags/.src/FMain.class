@@ -1,1 +1,8 @@
 ' Gambas class file
+
+Public Sub Button1_Click()
+
+' Get the contents of a directory
+Exec ["python", "./scripts/read_tag.py"] Wait
+
+End
